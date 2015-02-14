@@ -1,0 +1,147 @@
+<% content_for :carousel do %>
+  <!-- Carousel
+  ================================================== -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <%= image_tag 'graduate.jpg', alt: 'First slide' %>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Graduate With Us!</h1>
+            <p>If you thought you couldn't finish your High School degree, think again.  With GOAL Academy you can learn at home, around your schedule, finish your High School degree, and Graduate.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Enroll today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>One more for good measure.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="icon-prev" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="icon-next" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div><!-- /.carousel -->
+
+<% end %>
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <%= image_tag 'support.jpg', class: 'img-circle', style: "width: 140px; height: 140px;" %>
+          <h2>Support Services</h2>
+          <ul class="list-unstyled">
+            <li> English Learning Support</li>
+            <li>Exception Student Services Support</li>
+            <li>Local Staff Support</li>
+            <li>Tech Support</li>
+            <li>Local Educational Centers</li>
+            <li>Indivvidual Success Plans</li>
+            <li>Career Planning</li>
+            <li>Wrap Around Services</li>
+            <li>Testing Modifications & Accomidations</li>
+          </ul>  
+         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <%= image_tag 'programs.jpg', class: 'img-circle', style: "width: 140px; height: 140px;" %>
+          <h2>Programs</h2>
+          <ul class="list-unstyled">
+            <li>Concurrent Enrollment</li>
+            <li>Experiential Learning</li>
+            <li>GOAL Connections</li>
+            <li>National Honor Society</li>
+            <li>Sutdent Council</li>
+            <li>Field Trips</li>
+          </ul>
+          <a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <%= image_tag 'club.jpg', class: 'img-circle', style: "width: 140px; height: 140px;" %>
+          <h2>Clubs</h2>
+          <ul class="list-unstyled">
+            <li>Booster Club</li>
+            <li>Chess Club</li>
+            <li>Art Club</li>
+            <li>Music Club</li>
+            <li>Science Club</li>
+          </ul>
+          <a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">G.O.A.L. Academy</h2>
+          <p class="lead">GOAL Academy is the Premier Blended Learning High School (online & face to face instruction).  GOAL Academy provides a high tech quality education.  We personalize your education by creating flexible learning environments, engaging online and face-to-face instruction, delivered with cutting edge educational tools & philophies.  It is a great time to stop in, visit our website or call today to complete you application for the 2014-2015 school year!</p>
+        </div>
+        <div class="col-md-5">
+          <%= image_tag 'logo_500.png', class: 'featurette-image img-responsive' %>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <%= image_tag 'concurrent_enrollment.jpg', class: 'featurette-image img-responsive' %>
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Concurrent Enrollment</h2>
+          <p class="lead">With concurrent enrollment you can enroll both at GOAL Academy and take community college courses paid for by GOAL Academy.  This allows you to prepare for a future either by working towards an associates degree or taking courses you will eventually transfer to a 4 year school.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Testimonial <span class="text-muted">Mickey</span></h2>
+          <p class="lead">I am 17 years old and this is my senior year.  I have a disability.  I cannot hear.  That doesn't stop me from being a good student and softball player.  When at my local distric high school, I could come home from school crying about being bullied and didn't want to go to school the next day.  Notboy would have lunch with me; just because I was deaf.  I grew up playing softball and love playing.  Because of my prolonged pitching position, I had shoulder surgery.  Because of kids bullying me, surgery, and my local school district not having a very good daf program, we called another online school, but when they found out I was deaf, they said they did not they could me.</p>
+          <p class="lead">Then I found GOAL Academy.  I attend classes at GOAL Academy but I play softball for my local high school.  Attending GOAL Academy does not stop me from still doing my sport activities.  They helped me with my school schedule; they help me when I need help and work one-on-one with me.  I am able to use technology to communicate; Google Talk, Skype, text and email with my academic coaches and we meet once a week.  I want to go to business school andd cosmetology school so I can own my own hair salon someday.</p>
+        </div>
+        <div class="col-md-5">
+          <%= image_tag 'testimonial.png', class: 'featurette-image img-responsive' %>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
