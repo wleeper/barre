@@ -36,7 +36,7 @@
 
     <%= javascript_include_tag "application" %>
   </head>
-  <body>
+  <body class='carousel'>
 
    <div class="navbar-wrapper">
       <div class="container">
@@ -86,6 +86,10 @@
       </div>
     </div>
 
+    <!-- Hide the flash on this page, but if we don't render it, it will stay around in the session -->
+    <div class='invisible'>
+      <%= bootstrap_flash %>
+    </div>
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <%= yield :carousel %>
     <%= yield %>
