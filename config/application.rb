@@ -24,5 +24,9 @@ module MyGoal
     config.active_record.raise_in_transactional_callbacks = true
     
     config.filter_parameters << :password
+
+    config.generators do |g|
+        g.fixture_replacement :machinist
+    end
   end
 end
