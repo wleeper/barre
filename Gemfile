@@ -44,6 +44,7 @@ group :development, :test do
   gem 'spring-commands-rspec'
   gem 'machinist'
   gem 'faker'
+  gem 'cucumber-rails'
 end
 
 group :production do
