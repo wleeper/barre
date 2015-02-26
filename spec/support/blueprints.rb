@@ -16,3 +16,7 @@ User.blueprint do
 	password { password }
 	password_confirmation { password }
 end
+
+Post.blueprint do
+  # Attributes here
+end
